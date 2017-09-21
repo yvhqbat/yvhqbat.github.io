@@ -6,6 +6,11 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 
 ## home
  [blog1](./blog1.md)
+ 
+## C++基础知识
+- [inline函数](./CPP/inline函数.md)
+
+
 ### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
