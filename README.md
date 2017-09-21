@@ -5,10 +5,12 @@ You can use the [editor on GitHub](https://github.com/yvhqbat/yvhqbat.github.io/
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
 ## home
- [blog1](./blog1.md)
  
 ## C++基础知识
 - [inline函数](./CPP/inline函数.md)
+
+## Linux
+- [慎用 rm 命令](./Linux/慎用 rm 命令.md)
 
 
 ### Markdown
