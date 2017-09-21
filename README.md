@@ -10,7 +10,7 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 - [inline函数](./CPP/inline函数.md)
 
 ## Linux
-- [慎用 rm 命令](./Linux/慎用 rm 命令.md)
+- [慎用 rm 命令](./Linux/慎用rm命令.md)
 
 
 ### Markdown
