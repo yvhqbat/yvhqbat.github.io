@@ -5,7 +5,7 @@
 ### C++基础知识
 - [inline函数](./CPP/inline函数.md)
 - [对象池](./CPP/对象池.md)
-
+- [assert](./CPP/assert.md)
 
 ### Linux
 - [慎用 rm 命令](./Linux/慎用rm命令.md)
