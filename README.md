@@ -7,6 +7,8 @@
 - [对象池](./CPP/对象池.md)
 - [assert](./CPP/assert.md)
 - [成员函数的重载-覆盖-隐藏](./CPP/成员函数的重载-覆盖-隐藏.md)
+- [智能指针](./CPP/智能指针.md)
+- [private-protected](./CPP/private-protected.md)
 
 ### Linux
 - [慎用 rm 命令](./Linux/慎用rm命令.md)
