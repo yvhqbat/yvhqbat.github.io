@@ -9,7 +9,7 @@
 - [成员函数的重载-覆盖-隐藏](./CPP/成员函数的重载-覆盖-隐藏.md)
 - [智能指针](./CPP/智能指针.md)
 - [private-protected](./CPP/private-protected.md)
-- [unique_lock和lock_guard的区别](./CPP/unique_lock-lock_guard区别.md)
+- [unique_lock和lock_guard的区别](./CPP/unique_lock和lock_guard的区别.md)
 
 ### Linux
 - [慎用 rm 命令](./Linux/慎用rm命令.md)
