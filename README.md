@@ -1,7 +1,7 @@
 ## Welcome to yvhqbabt's GitHub Pages
 
 ## home
- 
+
 ### C++基础知识
 - [inline函数](./CPP/inline函数.md)
 - [对象池](./CPP/对象池.md)
@@ -15,7 +15,8 @@
 ### Linux
 - [慎用 rm 命令](./Linux/慎用rm命令.md)
 
-
+### Redis源码阅读
+- [Redis源码阅读-文件事件处理器](./Redis/Redis源码阅读-文件事件处理器.md)
 ### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
