@@ -14,10 +14,10 @@
 - [慎用 rm 命令](./Linux/慎用rm命令.md)
 
 ### 编译错误总结
-- [Resource-deadlock-avoided](./Resource-deadlock-avoided.md)
+- [Resource-deadlock-avoided](./Compile/Resource-deadlock-avoided.md)
 
 ### Redis源码阅读
 - [Redis源码阅读-文件事件处理器](./Redis/Redis源码阅读-文件事件处理器.md)
 
 ### Markdown
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+[GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
