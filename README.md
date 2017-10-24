@@ -19,5 +19,8 @@
 ### Redis源码阅读
 - [Redis源码阅读-文件事件处理器](./Redis/Redis源码阅读-文件事件处理器.md)
 
+### AI
+- [大纲](./AI/大纲.md)
+
 ### Markdown
 [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
