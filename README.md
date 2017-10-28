@@ -22,5 +22,8 @@
 ### AI
 - [大纲](./AI/大纲.md)
 
+### 算法
+- [分治策略](./algorithm/分治策略.md)
+
 ### Markdown
 [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
