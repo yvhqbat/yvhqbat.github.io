@@ -1,3 +1,6 @@
+# 最大子数组问题
+
+# 1. 暴力解法
 def max_sub_array(arr):
     max = 0
     x = 0
@@ -15,6 +18,7 @@ def max_sub_array(arr):
     print(x,y)
     return max
 
+# 2. 分治策略
 def max_sub_array_recursive(arr, first, last):
     if first==last:
         return arr[first]
@@ -38,9 +42,21 @@ def max_sub_array_recursive(arr, first, last):
     m3=left_max+right_max
     return max(m1,m2,m3)
 
+# 3. 动态规划
+def max_sub_array_dy(arr):
+    max = 0
+    max_temp = 0
+    for i in range(0,len(arr)):
+        if max_temp>=0:
+            max_temp += arr[i]
+        else:
+            max_temp = arr[i]
+        if max_temp > max:
+            max = max_temp
+    return max
+
 arr=[1,2,5,-3,5,-30]
+print(arr)
 print(max_sub_array(arr))
 print(max_sub_array_recursive(arr, 0, len(arr)-1))
-
-
-
+print(max_sub_array_dy(arr))
