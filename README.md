@@ -24,6 +24,7 @@
 
 ### 算法
 - [分治策略](./algorithm/分治策略.md)
+- [排序算法](./algorithm/排序算法.md)
 
 ### Markdown
 [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
