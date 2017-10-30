@@ -12,6 +12,7 @@
 
 ### Linux
 - [慎用 rm 命令](./Linux/慎用rm命令.md)
+- [开发常用Linux命令](./Linux/开发常用Linux命令.md)
 
 ### 编译错误总结
 - [Resource-deadlock-avoided](./Compile/Resource-deadlock-avoided.md)
