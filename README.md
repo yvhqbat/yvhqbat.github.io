@@ -14,6 +14,10 @@
 - [慎用 rm 命令](./Linux/慎用rm命令.md)
 - [开发常用Linux命令](./Linux/开发常用Linux命令.md)
 
+- [进程与线程的区别](./Linux/进程与线程的区别.md)
+- [select和poll,epoll的区别](./Linux/select和poll,epoll的区别.md)
+
+
 ### 编译错误总结
 - [Resource-deadlock-avoided](./Compile/Resource-deadlock-avoided.md)
 
