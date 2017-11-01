@@ -1,0 +1,1 @@
+g++    -std=c++11 -pthread -g -Wall -g    CMakeFiles/ThreadSpecificDataTest.dir/ThreadSpecificDataTest.cpp.o  -o ../../bin/ThreadSpecificDataTest  -L/home/ld/yvhqbat.github.io/CPP/network/lib -rdynamic 

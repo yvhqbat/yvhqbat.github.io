@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/TcpClient.h
+iostream
+-
+string
+-
+fstream
+-
+
+/home/ld/yvhqbat.github.io/CPP/network/test/client.cpp
+TcpClient.h
+/home/ld/yvhqbat.github.io/CPP/network/test/TcpClient.h
+

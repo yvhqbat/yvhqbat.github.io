@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/ThreadPool.h
+functional
+-
+thread
+-
+vector
+-
+queue
+-
+mutex
+-
+condition_variable
+-
+
+/home/ld/yvhqbat.github.io/CPP/network/test/ThreadPoolTest.cpp
+ThreadPool.h
+/home/ld/yvhqbat.github.io/CPP/network/test/ThreadPool.h
+iostream
+-
+

@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/TcpServer.h
+list
+-
+thread
+-
+atomic
+-
+string
+-
+unistd.h
+-
+sys/socket.h
+-
+iostream
+-
+
+/home/ld/yvhqbat.github.io/CPP/network/test/server.cpp
+TcpServer.h
+/home/ld/yvhqbat.github.io/CPP/network/test/TcpServer.h
+

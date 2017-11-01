@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/TcpClient.h
+iostream
+-
+string
+-
+fstream
+-
+
+/home/ld/yvhqbat.github.io/CPP/network/src/TcpClient.cpp
+cstdio
+-
+string
+-
+cstdlib
+-
+sstream
+-
+errno.h
+-
+iostream
+-
+unistd.h
+-
+string.h
+-
+arpa/inet.h
+-
+sys/socket.h
+-
+netinet/in.h
+-
+TcpClient.h
+/home/ld/yvhqbat.github.io/CPP/network/src/TcpClient.h
+
