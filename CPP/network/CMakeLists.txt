@@ -15,8 +15,11 @@ set(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/bin)
 
 # 设置存放编译出来的库文件的目录
 set(LIBRARY_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/lib)
+
 # 并把该目录设置为链接目录
 link_directories(${PROJECT_SOURCE_DIR}/lib)
+link_directories(${PROJECT_SOURCE_DIR}/lib/lib_jsoncpp)
+
 # 设定头文件目录
 include_directories(${PROJECT_SOURCE_DIR}/include)
 

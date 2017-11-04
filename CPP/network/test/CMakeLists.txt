@@ -8,3 +8,6 @@ target_link_libraries(server tcpserver)
 
 add_executable(client client.cpp)
 target_link_libraries(client tcpclient)
+
+add_executable(json_test json_test.cpp)
+target_link_libraries(json_test libjsoncpp.so)

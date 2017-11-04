@@ -141,6 +141,20 @@ client/fast:
 .PHONY : client/fast
 
 # Convenience name for target.
+test/CMakeFiles/json_test.dir/rule:
+	cd /home/ld/yvhqbat.github.io/CPP/network/build && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/json_test.dir/rule
+.PHONY : test/CMakeFiles/json_test.dir/rule
+
+# Convenience name for target.
+json_test: test/CMakeFiles/json_test.dir/rule
+.PHONY : json_test
+
+# fast build rule for target.
+json_test/fast:
+	cd /home/ld/yvhqbat.github.io/CPP/network/build && $(MAKE) -f test/CMakeFiles/json_test.dir/build.make test/CMakeFiles/json_test.dir/build
+.PHONY : json_test/fast
+
+# Convenience name for target.
 test/CMakeFiles/server.dir/rule:
 	cd /home/ld/yvhqbat.github.io/CPP/network/build && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/server.dir/rule
 .PHONY : test/CMakeFiles/server.dir/rule
@@ -226,6 +240,30 @@ client.cpp.s:
 	cd /home/ld/yvhqbat.github.io/CPP/network/build && $(MAKE) -f test/CMakeFiles/client.dir/build.make test/CMakeFiles/client.dir/client.cpp.s
 .PHONY : client.cpp.s
 
+json_test.o: json_test.cpp.o
+.PHONY : json_test.o
+
+# target to build an object file
+json_test.cpp.o:
+	cd /home/ld/yvhqbat.github.io/CPP/network/build && $(MAKE) -f test/CMakeFiles/json_test.dir/build.make test/CMakeFiles/json_test.dir/json_test.cpp.o
+.PHONY : json_test.cpp.o
+
+json_test.i: json_test.cpp.i
+.PHONY : json_test.i
+
+# target to preprocess a source file
+json_test.cpp.i:
+	cd /home/ld/yvhqbat.github.io/CPP/network/build && $(MAKE) -f test/CMakeFiles/json_test.dir/build.make test/CMakeFiles/json_test.dir/json_test.cpp.i
+.PHONY : json_test.cpp.i
+
+json_test.s: json_test.cpp.s
+.PHONY : json_test.s
+
+# target to generate assembly for a file
+json_test.cpp.s:
+	cd /home/ld/yvhqbat.github.io/CPP/network/build && $(MAKE) -f test/CMakeFiles/json_test.dir/build.make test/CMakeFiles/json_test.dir/json_test.cpp.s
+.PHONY : json_test.cpp.s
+
 server.o: server.cpp.o
 .PHONY : server.o
 
@@ -260,6 +298,7 @@ help:
 	@echo "... ThreadSpecificDataTest"
 	@echo "... client"
 	@echo "... edit_cache"
+	@echo "... json_test"
 	@echo "... rebuild_cache"
 	@echo "... server"
 	@echo "... ThreadPoolTest.o"
@@ -271,6 +310,9 @@ help:
 	@echo "... client.o"
 	@echo "... client.i"
 	@echo "... client.s"
+	@echo "... json_test.o"
+	@echo "... json_test.i"
+	@echo "... json_test.s"
 	@echo "... server.o"
 	@echo "... server.i"
 	@echo "... server.s"

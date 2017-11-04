@@ -49,5 +49,6 @@ SET(CMAKE_DEPEND_INFO_FILES
   "test/CMakeFiles/ThreadPoolTest.dir/DependInfo.cmake"
   "test/CMakeFiles/ThreadSpecificDataTest.dir/DependInfo.cmake"
   "test/CMakeFiles/client.dir/DependInfo.cmake"
+  "test/CMakeFiles/json_test.dir/DependInfo.cmake"
   "test/CMakeFiles/server.dir/DependInfo.cmake"
   )

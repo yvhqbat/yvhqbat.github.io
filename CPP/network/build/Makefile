@@ -177,6 +177,19 @@ client/fast:
 .PHONY : client/fast
 
 #=============================================================================
+# Target rules for targets named json_test
+
+# Build rule for target.
+json_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 json_test
+.PHONY : json_test
+
+# fast build rule for target.
+json_test/fast:
+	$(MAKE) -f test/CMakeFiles/json_test.dir/build.make test/CMakeFiles/json_test.dir/build
+.PHONY : json_test/fast
+
+#=============================================================================
 # Target rules for targets named server
 
 # Build rule for target.
@@ -203,6 +216,7 @@ help:
 	@echo "... ThreadPoolTest"
 	@echo "... ThreadSpecificDataTest"
 	@echo "... client"
+	@echo "... json_test"
 	@echo "... server"
 .PHONY : help
 

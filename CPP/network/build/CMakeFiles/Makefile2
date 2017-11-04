@@ -78,7 +78,7 @@ src/preinstall:
 src/CMakeFiles/tcpclient.dir/all:
 	$(MAKE) -f src/CMakeFiles/tcpclient.dir/build.make src/CMakeFiles/tcpclient.dir/depend
 	$(MAKE) -f src/CMakeFiles/tcpclient.dir/build.make src/CMakeFiles/tcpclient.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ld/yvhqbat.github.io/CPP/network/build/CMakeFiles  5
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/ld/yvhqbat.github.io/CPP/network/build/CMakeFiles  6
 	@echo "Built target tcpclient"
 .PHONY : src/CMakeFiles/tcpclient.dir/all
 
@@ -113,7 +113,7 @@ clean: src/CMakeFiles/tcpclient.dir/clean
 src/CMakeFiles/tcpserver.dir/all:
 	$(MAKE) -f src/CMakeFiles/tcpserver.dir/build.make src/CMakeFiles/tcpserver.dir/depend
 	$(MAKE) -f src/CMakeFiles/tcpserver.dir/build.make src/CMakeFiles/tcpserver.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ld/yvhqbat.github.io/CPP/network/build/CMakeFiles  6
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/ld/yvhqbat.github.io/CPP/network/build/CMakeFiles  7
 	@echo "Built target tcpserver"
 .PHONY : src/CMakeFiles/tcpserver.dir/all
 
@@ -148,7 +148,7 @@ clean: src/CMakeFiles/tcpserver.dir/clean
 src/CMakeFiles/threadpool.dir/all:
 	$(MAKE) -f src/CMakeFiles/threadpool.dir/build.make src/CMakeFiles/threadpool.dir/depend
 	$(MAKE) -f src/CMakeFiles/threadpool.dir/build.make src/CMakeFiles/threadpool.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ld/yvhqbat.github.io/CPP/network/build/CMakeFiles  7
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/ld/yvhqbat.github.io/CPP/network/build/CMakeFiles  8
 	@echo "Built target threadpool"
 .PHONY : src/CMakeFiles/threadpool.dir/all
 
@@ -183,6 +183,7 @@ clean: src/CMakeFiles/threadpool.dir/clean
 test/all: test/CMakeFiles/ThreadPoolTest.dir/all
 test/all: test/CMakeFiles/ThreadSpecificDataTest.dir/all
 test/all: test/CMakeFiles/client.dir/all
+test/all: test/CMakeFiles/json_test.dir/all
 test/all: test/CMakeFiles/server.dir/all
 .PHONY : test/all
 
@@ -190,6 +191,7 @@ test/all: test/CMakeFiles/server.dir/all
 test/clean: test/CMakeFiles/ThreadPoolTest.dir/clean
 test/clean: test/CMakeFiles/ThreadSpecificDataTest.dir/clean
 test/clean: test/CMakeFiles/client.dir/clean
+test/clean: test/CMakeFiles/json_test.dir/clean
 test/clean: test/CMakeFiles/server.dir/clean
 .PHONY : test/clean
 
@@ -303,13 +305,48 @@ clean: test/CMakeFiles/client.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Target rules for target test/CMakeFiles/json_test.dir
+
+# All Build rule for target.
+test/CMakeFiles/json_test.dir/all:
+	$(MAKE) -f test/CMakeFiles/json_test.dir/build.make test/CMakeFiles/json_test.dir/depend
+	$(MAKE) -f test/CMakeFiles/json_test.dir/build.make test/CMakeFiles/json_test.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/ld/yvhqbat.github.io/CPP/network/build/CMakeFiles  4
+	@echo "Built target json_test"
+.PHONY : test/CMakeFiles/json_test.dir/all
+
+# Include target in all.
+all: test/CMakeFiles/json_test.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+test/CMakeFiles/json_test.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ld/yvhqbat.github.io/CPP/network/build/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/json_test.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ld/yvhqbat.github.io/CPP/network/build/CMakeFiles 0
+.PHONY : test/CMakeFiles/json_test.dir/rule
+
+# Convenience name for target.
+json_test: test/CMakeFiles/json_test.dir/rule
+.PHONY : json_test
+
+# clean rule for target.
+test/CMakeFiles/json_test.dir/clean:
+	$(MAKE) -f test/CMakeFiles/json_test.dir/build.make test/CMakeFiles/json_test.dir/clean
+.PHONY : test/CMakeFiles/json_test.dir/clean
+
+# clean rule for target.
+clean: test/CMakeFiles/json_test.dir/clean
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target test/CMakeFiles/server.dir
 
 # All Build rule for target.
 test/CMakeFiles/server.dir/all: src/CMakeFiles/tcpserver.dir/all
 	$(MAKE) -f test/CMakeFiles/server.dir/build.make test/CMakeFiles/server.dir/depend
 	$(MAKE) -f test/CMakeFiles/server.dir/build.make test/CMakeFiles/server.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ld/yvhqbat.github.io/CPP/network/build/CMakeFiles  4
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/ld/yvhqbat.github.io/CPP/network/build/CMakeFiles  5
 	@echo "Built target server"
 .PHONY : test/CMakeFiles/server.dir/all
 

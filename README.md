@@ -10,6 +10,9 @@
 - [unique_lock和lock_guard的区别](./CPP/unique_lock和lock_guard的区别.md)
 - [gettimeofday()函数的使用](./CPP/gettimeofday()函数的使用.md)
 
+### log4cpp
+- [log4cpp的编译与安装](./log4cpp/log4cpp的编译与安装.md)
+
 ### Linux
 - [慎用 rm 命令](./Linux/慎用rm命令.md)
 - [开发常用Linux命令](./Linux/开发常用Linux命令.md)

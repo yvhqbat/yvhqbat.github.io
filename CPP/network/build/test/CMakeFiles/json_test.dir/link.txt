@@ -1,0 +1,1 @@
+g++    -std=c++11 -pthread -g -Wall -g    CMakeFiles/json_test.dir/json_test.cpp.o  -o ../../bin/json_test  -L/home/ld/yvhqbat.github.io/CPP/network/lib  -L/home/ld/yvhqbat.github.io/CPP/network/lib/lib_jsoncpp -rdynamic -ljsoncpp -Wl,-rpath,/home/ld/yvhqbat.github.io/CPP/network/lib:/home/ld/yvhqbat.github.io/CPP/network/lib/lib_jsoncpp 
