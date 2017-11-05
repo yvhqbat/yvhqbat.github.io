@@ -119,3 +119,26 @@ For more information about this security protection see the
 #1  0x00000000004009ad in main () at /home/ld/Code/test/coredump_test.cpp:16
 
 ```
+
+## 4. cordump 测试代码
+```
+#include <iostream>
+
+const char *p="hello world.";
+
+void dp()
+{
+    // p[1]='E';
+    char *p=new char[5];
+    delete p;
+    p=nullptr;
+    p[23]='o';
+}
+
+int main()
+{
+    dp();
+    return 0;
+}
+
+```
