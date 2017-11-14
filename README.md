@@ -23,7 +23,7 @@
 - [select和poll,epoll的区别](./Linux/select和poll,epoll的区别.md)
 
 - [中断,异常和软中断的异同](./Linux/中断,异常和软中断的异同.md)
-
+- [同步](./Linux/同步.md)
 
 ### 编译错误总结
 - [Resource-deadlock-avoided](./Compile/Resource-deadlock-avoided.md)
