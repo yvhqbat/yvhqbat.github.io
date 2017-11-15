@@ -10,6 +10,10 @@
 - [unique_lock和lock_guard的区别](./CPP/unique_lock和lock_guard的区别.md)
 - [gettimeofday()函数的使用](./CPP/gettimeofday()函数的使用.md)
 
+- [dlopen加载动态链接库](./CPP/dlopen加载动态链接库.md)
+- [C和C++之间库的互相调用](./CPP/C和C++之间库的互相调用.md)
+
+
 ### tools
 - [jsoncpp的编译与使用](./tools/jsoncpp用法.md)
 - [log4cpp的编译与安装](./lools/log4cpp的编译与安装.md)
