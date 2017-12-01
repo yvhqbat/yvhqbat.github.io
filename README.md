@@ -22,6 +22,7 @@
 ### Linux
 - [慎用 rm 命令](./Linux/慎用rm命令.md)
 - [开发常用Linux命令](./Linux/开发常用Linux命令.md)
+- [文件比较工具](./Linux/文件比较工具.md)
 
 - [进程与线程的区别](./Linux/进程与线程的区别.md)
 - [select和poll,epoll的区别](./Linux/select和poll,epoll的区别.md)
