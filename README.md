@@ -12,6 +12,7 @@
 
 - [dlopen加载动态链接库](./CPP/dlopen加载动态链接库.md)
 - [C和C++之间库的互相调用](./CPP/C和C++之间库的互相调用.md)
+- [可变参数和vsnprintf用法](./CPP/可变参数和vsnprintf用法.md)
 
 
 ### tools
