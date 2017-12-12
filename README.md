@@ -45,7 +45,7 @@
 - [排序算法](./algorithm/排序算法.md)
 
 ### python
-- [python面试试题](https://github.com/taizilongxu/interview_python/Readme.md)
+- [interview_python](https://github.com/taizilongxu/interview_python/blob/master/Readme.md)
 - [awesome-python](https://github.com/vinta/awesome-python#awesome-python)
 - [Numpy-100](https://github.com/rougier/numpy-100/blob/master/100%20Numpy%20exercises.md)
 
