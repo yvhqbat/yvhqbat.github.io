@@ -44,5 +44,10 @@
 - [分治策略](./algorithm/分治策略.md)
 - [排序算法](./algorithm/排序算法.md)
 
+### python
+- [python面试试题](https://github.com/taizilongxu/interview_python/Readme.md)
+- [awesome-python](https://github.com/vinta/awesome-python#awesome-python)
+- [Numpy-100](https://github.com/rougier/numpy-100/blob/master/100%20Numpy%20exercises.md)
+
 ### Markdown
 [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
