@@ -49,5 +49,8 @@
 - [awesome-python](https://github.com/vinta/awesome-python#awesome-python)
 - [Numpy-100](https://github.com/rougier/numpy-100/blob/master/100%20Numpy%20exercises.md)
 
+### Golang
+- [Golang资源收集](./Golang/go资源收集.md)
+
 ### Markdown
 [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
