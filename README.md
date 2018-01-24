@@ -27,7 +27,7 @@
 - [可移植性](./tools/可移植性.md)
 - [调试](./tools/调试.md)
 - [Thrift-远程过程调用](./tools/Thrift-远程过程调用.md)
-- [获取当前工作目录](./tools/获取当前工作目录.md)
+- [获取当前工作路径](./tools/获取当前工作路径.md)
 
 ### Linux
 - [慎用 rm 命令](./Linux/慎用rm命令.md)
