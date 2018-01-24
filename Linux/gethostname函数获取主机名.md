@@ -1,5 +1,7 @@
 
 
+## gethostname函数获取主机名
+
 ```
 NAME
        gethostname, sethostname - get/set hostname
@@ -48,4 +50,10 @@ main(int argc, char** argv)
 
     return 0;
 }
+```
+
+### 3. python
+```
+import socket
+hostname=socket.gethostname()
 ```
