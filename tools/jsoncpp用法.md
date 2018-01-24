@@ -23,6 +23,10 @@ array[2] = "hello world";
 root["params"]=array;
 ```
 
+Json::Value转化为字符串的方法Json::Value::toStyledString()
+```
+std::string str = root.toStyledString();
+```
 ## 2. Json::FastWriter
 ```
 /* Json::Value 转化为字符串 */
