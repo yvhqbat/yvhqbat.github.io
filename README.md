@@ -27,6 +27,7 @@
 - [可移植性](./tools/可移植性.md)
 - [调试](./tools/调试.md)
 - [Thrift-远程过程调用](./tools/Thrift-远程过程调用.md)
+- [获取当前工作目录](./tools/获取当前工作目录.md)
 
 ### Linux
 - [慎用 rm 命令](./Linux/慎用rm命令.md)
@@ -41,7 +42,7 @@
 - [同步](./Linux/同步.md)
 - [同步-异步-阻塞-非阻塞的区别](CPP/同步-异步-阻塞-非阻塞的区别.md)
 
-- [socket心跳检测](./linux/socket心跳检测.md)
+- [socket心跳检测](./Linux/socket心跳检测.md)
 
 ### 编译错误总结
 - [Resource-deadlock-avoided](./Compile/Resource-deadlock-avoided.md)
