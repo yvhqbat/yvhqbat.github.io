@@ -29,20 +29,20 @@
 - [Thrift-远程过程调用](./tools/Thrift-远程过程调用.md)
 - [获取当前工作路径](./tools/获取当前工作路径.md)
 
-### Linux
-- [慎用 rm 命令](./Linux/慎用rm命令.md)
-- [开发常用Linux命令](./Linux/开发常用Linux命令.md)
-- [文件比较工具](./Linux/文件比较工具.md)
+### linux
+- [慎用 rm 命令](./linux/慎用rm命令.md)
+- [开发常用Linux命令](./linux/开发常用Linux命令.md)
+- [文件比较工具](./linux/文件比较工具.md)
 - [sed命令](./CPP/sed命令.md)
 
-- [进程与线程的区别](./Linux/进程与线程的区别.md)
-- [select和poll,epoll的区别](./Linux/select和poll,epoll的区别.md)
+- [进程与线程的区别](./linux/进程与线程的区别.md)
+- [select和poll,epoll的区别](./linux/select和poll,epoll的区别.md)
 
-- [中断,异常和软中断的异同](./Linux/中断,异常和软中断的异同.md)
-- [同步](./Linux/同步.md)
+- [中断,异常和软中断的异同](./linux/中断,异常和软中断的异同.md)
+- [同步](./linux/同步.md)
 - [同步-异步-阻塞-非阻塞的区别](CPP/同步-异步-阻塞-非阻塞的区别.md)
 
-- [socket心跳检测](./Linux/socket心跳检测.md)
+- [socket心跳检测](./linux/socket心跳检测.md)
 
 ### 编译错误总结
 - [Resource-deadlock-avoided](./Compile/Resource-deadlock-avoided.md)
