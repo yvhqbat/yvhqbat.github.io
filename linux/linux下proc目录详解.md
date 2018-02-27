@@ -13,3 +13,6 @@ linux里一切皆为文件，/proc目录是一种内核和内核模块用来向�
 - 系统内存信息：/proc/meminfo 文件包含系统内存的详细信息，其中显示物理内存的数量、可用交换空间的数量，以及空闲内存的数量等。
 
 可以通过读取相关文件，编写某些工具软件。
+
+参考：
+[/proc/pid下的相应信息说明](http://www.cnblogs.com/GoodGoodWorkDayDayUp/archive/2011/05/27/2059685.html)
