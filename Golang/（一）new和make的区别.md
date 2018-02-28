@@ -10,22 +10,21 @@
 ## 示例
 
 ```
-  type A struct {
-	X int
-	Y int
-  }
+	type A struct {
+		X int
+		Y int
+  	}
 ```
 
 ```
 	slice := make([]int, 50, 100)
 	fmt.Println(len(slice), cap(slice))  // 50 100
   
-  array := new([100]int)
+	array := new([100]int)
 	fmt.Println(cap(array))  // 100
   
-  a := new(A)
+	a := new(A)
 	a.X = 5
 	a.Y = 7
 	fmt.Println(a)  // &{5 7}
-  
 ```
