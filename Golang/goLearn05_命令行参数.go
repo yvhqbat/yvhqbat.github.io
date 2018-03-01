@@ -1,4 +1,4 @@
-// rw project main.go
+// demo project main.go
 package main
 
 import (
@@ -7,20 +7,26 @@ import (
 	"os"
 )
 
-// flag包
-var b = flag.Bool("b", false, "bool flag")
-
-// init函数，在main之前自动执行
-func init() {
-	fmt.Println("parse flags")
-	flag.Parse()
-	flag.PrintDefaults()
-}
+var n = flag.Bool("n", false, "n flag")
+var sep = flag.String("s", "", "separator")
 
 func main() {
-	// os.Args  --> 命令行参数列表
-	fmt.Println(os.Args[0])
-    
-    // flag.Arg(i)
-	fmt.Println(flag.Arg(0))
+	flag.Parse()
+	//flag.PrintDefaults()
+	fmt.Println(*n)
+	fmt.Println(*sep)
+
+	fmt.Println(os.Args)
 }
+
+// test
+/*
+demo# ./demo -n=1 -s="caipei"
+  -n	n flag
+  -s string
+    	separator
+[]
+true
+caipei
+[./demo -n=1 -s=caipei]
+*/
