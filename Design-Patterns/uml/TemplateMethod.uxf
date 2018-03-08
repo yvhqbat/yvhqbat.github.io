@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>300</x>
+      <y>180</y>
+      <w>220</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>/AbstractClass/
+bg=green
+--
+
+--
++ TemplateMethod()
++ PrimitiveOperation1()
++ PrimitiveOperation2()
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>300</x>
+      <y>370</y>
+      <w>220</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>ConcreteClass
+bg=yellow
+--
+
+--
++ PrimitiveOperation1()
++ PrimitiveOperation2()
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>400</x>
+      <y>290</y>
+      <w>30</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;80.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>590</x>
+      <y>180</y>
+      <w>350</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>实现了一个模板方法, 定义了算法的骨架,
+具体子类将重定义PrimitiveOperation以
+实现一个算法的步骤.</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>590</x>
+      <y>380</y>
+      <w>330</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>实现了PrimitiveOperation
+以完成算法中与特定子类相关的步骤.</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>510</x>
+      <y>400</y>
+      <w>100</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;10.0;80.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>510</x>
+      <y>210</y>
+      <w>100</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;10.0;80.0;10.0</additional_attributes>
+  </element>
+</diagram>
