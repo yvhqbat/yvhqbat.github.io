@@ -15,5 +15,36 @@
 [linux中内核的一个不错的参数somaxconn](http://blog.csdn.net/taolinke/article/details/6800979)  
 [Redis学习笔记五——启动警告问题的解决](http://blog.csdn.net/a491857321/article/details/52006376)
 
+### 4. sigqueue函数 进程间通信
+[sigqueue函数 进程间通信](http://blog.csdn.net/ccccdddxxx/article/details/6314360)
 
+### 5. 守护进程
+```
+// 如果server.daemonize=true,则服务器以守护进程方式运行，默认为false.
+if (server.daemonize) daemonize();
+```
+
+daemonize()函数：
+
+```
+// 将程序以守护进程方式运行
+void daemonize(void) {
+    int fd;
+
+    if (fork() != 0) exit(0); /* parent exits */
+    setsid(); /* create a new session */
+
+    /* Every output goes to /dev/null. If Redis is daemonized but
+     * the 'logfile' is set to 'stdout' in the configuration file
+     * it will not log at all. */
+    if ((fd = open("/dev/null", O_RDWR, 0)) != -1) {
+        dup2(fd, STDIN_FILENO);
+        dup2(fd, STDOUT_FILENO);
+        dup2(fd, STDERR_FILENO);
+        if (fd > STDERR_FILENO) close(fd);
+    }
+}
+```
+### 6. linux下overcommit_memory的问题
+[linux下overcommit_memory的问题](http://blog.csdn.net/houjixin/article/details/46412557)
 
