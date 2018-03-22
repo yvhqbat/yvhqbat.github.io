@@ -48,3 +48,69 @@ void daemonize(void) {
 ### 6. linux下overcommit_memory的问题
 [linux下overcommit_memory的问题](http://blog.csdn.net/houjixin/article/details/46412557)
 
+### 7. sigaction()函数设置信号处理函数
+```
+// 设置信号处理函数，当SIGTERN, SIGINT时，退出程序
+void setupSignalHandlers(void) {
+    struct sigaction act;
+
+    /* When the SA_SIGINFO flag is set in sa_flags then sa_sigaction is used.
+     * Otherwise, sa_handler is used. */
+    sigemptyset(&act.sa_mask);
+    act.sa_flags = 0;
+    act.sa_handler = sigShutdownHandler;
+    sigaction(SIGTERM, &act, NULL);
+    sigaction(SIGINT, &act, NULL);
+
+#ifdef HAVE_BACKTRACE
+    sigemptyset(&act.sa_mask);
+    act.sa_flags = SA_NODEFER | SA_RESETHAND | SA_SIGINFO;
+    act.sa_sigaction = sigsegvHandler;
+    sigaction(SIGSEGV, &act, NULL);
+    sigaction(SIGBUS, &act, NULL);
+    sigaction(SIGFPE, &act, NULL);
+    sigaction(SIGILL, &act, NULL);
+#endif
+    return;
+}
+```
+
+### 8. 保存进程ID到文件
+```
+void createPidFile(void) {
+    /* Try to write the pid file in a best-effort way. */
+    FILE *fp = fopen(server.pidfile,"w");
+    if (fp) {
+        fprintf(fp,"%d\n",(int)getpid());
+        fclose(fp);
+    }
+}
+```
+
+### 8. LRU approximation algorithm
+```
+/*
+ * LRU approximation algorithm
+ *
+ * Redis uses an approximation of the LRU algorithm that runs in constant
+ * memory. Every time there is a key to expire, we sample N keys (with
+ * N very small, usually in around 5) to populate a pool of best keys to
+ * evict of M keys (the pool size is defined by REDIS_EVICTION_POOL_SIZE).
+ *
+ * The N keys sampled are added in the pool of good keys to expire (the one
+ * with an old access time) if they are better than one of the current keys
+ * in the pool.
+ *
+ * After the pool is populated, the best key we have in the pool is expired.
+ * However note that we don't remove keys from the pool when they are deleted
+ * so the pool may contain keys that no longer exist.
+ *
+ * When we try to evict a key, and all the entries in the pool don't exist
+ * we populate it again. This time we'll be sure that the pool has at least
+ * one key that can be evicted, if there is at least one key that can be
+ * evicted in the whole database. */
+```
+
+参考：  
+- [Redis作为LRU缓存](http://redis.majunwei.com/topics/lru-cache.html)
+- [Modified Pseudo LRU Replacement Algorithm：改进的伪LRU替换算法](http://www.docin.com/p-800624016.html)
