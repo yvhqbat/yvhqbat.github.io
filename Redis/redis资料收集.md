@@ -1,6 +1,8 @@
 
 ## redis资料收集
-[yvhqbat-redis](http://blog.csdn.net/yvhqbat/article/category/6243356)
+- [yvhqbat-redis](http://blog.csdn.net/yvhqbat/article/category/6243356)
+- [Redis中文网](http://redis.majunwei.com/)
+
 
 ## 遇到的问题查阅
 在阅读redis源码时，有很多未见多的知识，经过网上搜索后，记录在此，以便日后查看。
