@@ -8,6 +8,7 @@ redis的内存分配器包装在文件zmalloc.h/zmalloc.c文件中
 - [github.com/jemalloc](https://github.com/jemalloc/jemalloc)
 - [JEMALLOC(3)](https://www.freebsd.org/cgi/man.cgi?query=jemalloc&sektion=3)
 - [jemalloc在linux上从安装到使用](https://blog.csdn.net/xiaofei_hah0000/article/details/52214592)
+- [ptmalloc,tcmalloc和jemalloc内存分配策略研究](https://blog.csdn.net/rationalgo/article/details/17676905)
 
 ## jemalloc.h头文件的分析
 
