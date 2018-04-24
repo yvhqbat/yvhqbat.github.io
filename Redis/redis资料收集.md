@@ -2,6 +2,9 @@
 ## redis资料收集
 - [yvhqbat-redis](http://blog.csdn.net/yvhqbat/article/category/6243356)
 - [Redis中文网](http://redis.majunwei.com/)
+- [专栏：Redis源码分析](https://blog.csdn.net/column/details/redis-code.html)
+- [redis快照文件dump.rdb解析工具--redis-rdb-tools](https://blog.csdn.net/yanshu2012/article/details/50556812)
+- [Parse Redis dump.rdb files, Analyze Memory, and Export Data to JSON](https://github.com/sripathikrishnan/redis-rdb-tools)
 
 
 ## 遇到的问题查阅
