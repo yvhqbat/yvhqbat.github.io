@@ -2,7 +2,9 @@
 # dlopen, dlsym, dlclose 加载动态链接库
 
 参考:
-[采用dlopen、dlsym、dlclose加载动态链接库【总结】](http://www.cnblogs.com/Anker/p/3746802.html)
+- [采用dlopen、dlsym、dlclose加载动态链接库【总结】](http://www.cnblogs.com/Anker/p/3746802.html)
+- [linux动态库加载的秘密](https://www.cnblogs.com/LiuYanYGZ/p/5545835.html)
+- [三种思路：解决动态库版本兼容](http://blog.sina.com.cn/s/blog_5cf54f0e0101cpct.html)
 
 ## 1. 插件
 
