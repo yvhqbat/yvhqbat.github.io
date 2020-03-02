@@ -1,1 +1,79 @@
-<mxfile host="www.draw.io" modified="2020-03-02T03:21:56.247Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.122 Safari/537.36" etag="VX-QQAk3HZdMxecKEmPD" version="12.7.9" type="github"><diagram id="yunekSwe0SYhIvmK5b6Y" name="Page-1">7Vpbb5swFP41fkwFJgTzGHLpqnVSpUhb9zQ5wQE2wJFxmqS/fgYMhAAJW9aQdO1DZX/28eWc8x0fmwBtFGzvGV65X6hNfAAVewu0MYDQVDTxPwZ2KaCbago4zLNTaA+Yea9EgopE155NolJHTqnPvVUZXNAwJAtewjBjdFPutqR+edYVdkgFmC2wX0W/eTZ3UxRBo8A/Ec9xs5nVgZm2BDjrLHcSudimmz1ImwBtxCjlaSnYjogf6y7TSyo3bWjNF8ZIyNsIzL5uo2dXix5C2HvE1EOL+8892JeL47tsx8QWCpBVyrhLHRpif1KgFqPr0CbxsIqoFX0eKV0JUBXgT8L5TloTrzkVkMsDX7aSrcefY/E7Xda+77WMt3LkpLLLKiFnuz2huPp9v60QS2qZXLq/eFONepNQRNdsQY4pS/ofZg7hR/ppuXUFKwgNiFiPkGPEx9x7Ka8DS/908n6FCUVBWvFPLJqO+4L9tZwJTHRgjoClJIUxQKIwACYCwwQROKp6QdnGG9fjZLbCiXo2guhle8opCeNke1zLVa1IAU2XNJFxwpDVTUE6NWOSu0e4gfJGehx0Sow9WhQkuVpiaC2JoSr1PtCaGVL0iXpiibnv5E4gfUeDB06RLkxKHfhFvoy/dxVUoZxScR7BDF62NfY9JxTlhVA3YQKI+eOJk2coGwLPtlO3IpH3iufJULHlVvFGkq3pFtDHAvHxnPgWXvxyEhccUZ+yZF5tmfwd46g8OeX4xeL3HaGZIY2E7il3io5QyTDyaDzT3D2zbtBMni6XEXkTMxtdRgT1BiPCPye6bnRLdLNCdLXiE++Q6MZJokMIS4bpaep5VH97NmsVWwZ49SMQ95e4pk0BHPixIedMlJy4JNSlCG1DpWp05tJgvo4ukyn1yySASk2q1K9JldBbpUpqv6LLLMOcfmRRrWNmduU9nUZ1esFQO82Mb+wcbG9TvVObGjUMFpdFBQyr1n6HJ5x6Mpfta0o5l811dr1HXOZ8JasmQdky4gBtqQAJxABDS4APT80PBdPCG9I+QxTLWWNgqnGf4QRYetyEBgCJgphhBMxq8L/kOan2jfpksbtz0vw4DdtHzravbSrqMnJmA7fKfd5j5DRPRU6YR87rjZSwehtoPv8+sp2zOQvPfQg8Lw7XvZH/N+eiDhseUbo7FxvYd+3fLA4+WfT1qiLRJT9ZpHeIAz32gYUAGt+EQiEyrkyj1af929KouLZcl0Zh3Z3kBhQ5uBzZRbX4VUCa4RQ/rdAmvwE=</diagram></mxfile>
+<mxfile host="www.draw.io" modified="2020-03-02T13:30:53.207Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.122 Safari/537.36" etag="nrC6fqiRBkH9zTdLQ7Xu" version="12.7.9" type="github">
+  <diagram id="yunekSwe0SYhIvmK5b6Y" name="Page-1">
+    <mxGraphModel dx="903" dy="591" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="SVxsXh3sIn2-Laoi8cGK-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="SVxsXh3sIn2-Laoi8cGK-2" target="SVxsXh3sIn2-Laoi8cGK-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SVxsXh3sIn2-Laoi8cGK-2" value="地址映射" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="350" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SVxsXh3sIn2-Laoi8cGK-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="SVxsXh3sIn2-Laoi8cGK-3" target="SVxsXh3sIn2-Laoi8cGK-10" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SVxsXh3sIn2-Laoi8cGK-8" value="0" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#ffffff;" parent="SVxsXh3sIn2-Laoi8cGK-6" vertex="1" connectable="0">
+          <mxGeometry x="-0.0588" y="9" relative="1" as="geometry">
+            <mxPoint x="-9" y="9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SVxsXh3sIn2-Laoi8cGK-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="SVxsXh3sIn2-Laoi8cGK-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="570" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SVxsXh3sIn2-Laoi8cGK-9" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#ffffff;" parent="SVxsXh3sIn2-Laoi8cGK-7" vertex="1" connectable="0">
+          <mxGeometry x="-0.0222" y="-31" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SVxsXh3sIn2-Laoi8cGK-3" value="map_mode=?&lt;br&gt;0 or 1" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="340" y="200" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="SVxsXh3sIn2-Laoi8cGK-14" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="SVxsXh3sIn2-Laoi8cGK-10" target="SVxsXh3sIn2-Laoi8cGK-13" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SVxsXh3sIn2-Laoi8cGK-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="SVxsXh3sIn2-Laoi8cGK-10" target="SVxsXh3sIn2-Laoi8cGK-15" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SVxsXh3sIn2-Laoi8cGK-17" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#ffffff;" parent="SVxsXh3sIn2-Laoi8cGK-16" vertex="1" connectable="0">
+          <mxGeometry x="-0.4308" y="-17" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SVxsXh3sIn2-Laoi8cGK-10" value="请求端IP地址是否在网段内？" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="147" y="320" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="SVxsXh3sIn2-Laoi8cGK-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="SVxsXh3sIn2-Laoi8cGK-12" target="SVxsXh3sIn2-Laoi8cGK-18" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SVxsXh3sIn2-Laoi8cGK-21" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#ffffff;" parent="SVxsXh3sIn2-Laoi8cGK-19" vertex="1" connectable="0">
+          <mxGeometry x="-0.2308" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SVxsXh3sIn2-Laoi8cGK-23" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="SVxsXh3sIn2-Laoi8cGK-12" target="SVxsXh3sIn2-Laoi8cGK-20" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SVxsXh3sIn2-Laoi8cGK-12" value="请求端IP地址是否在网段内？" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="520" y="320" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="SVxsXh3sIn2-Laoi8cGK-13" value="地址映射" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="50" y="450" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SVxsXh3sIn2-Laoi8cGK-15" value="不地址映射" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="287" y="450" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SVxsXh3sIn2-Laoi8cGK-18" value="不地址映射" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="430" y="450" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SVxsXh3sIn2-Laoi8cGK-20" value="地址映射" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="650" y="450" width="80" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
